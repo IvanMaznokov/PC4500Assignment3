@@ -3,9 +3,9 @@ import mysql.connector
 from selenium import webdriver
 
 mydb = mysql.connector.connect(
-    host = "172.21.1.251",
+    host = "localhost",
     user = "ivan",
-    password = "kr@ire4enk@rtel",
+    password = "password",
     database = "metric_tracker"
     )
     
